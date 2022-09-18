@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "appoint",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "history",
+				"outputs": [
+					{
+						"internalType": "contract MedicalHistory",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MedicalData.sol": "MedicalData"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MedicalData.sol": {
+			"keccak256": "0x3f5d1287fad49f8d43da84a887979a5bb2316d725ec8c4831f7e3d29af2820b3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://727b29c02678401e602a9b4308f967d1fb7768f924f57e5f7993387903f8ef81",
+				"dweb:/ipfs/QmSAeuTYP17Nb9jacfRsoTuzC9qJra1z5B3ptxVSHCgd86"
+			]
+		},
+		"contracts/MedicalHistory.sol": {
+			"keccak256": "0x664ac99a15a8c0e7bd0099a27589ae6b57052414cf1ce5f036d87d3e4fbb51e3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3df7613e94d5d7adaded5dc2f6138efc059298a8098d8a3ee604ed971dcd37b0",
+				"dweb:/ipfs/QmNn69iSqRhTBCSYbdvnNMUx4qVr6qcGECdimevMVPfrEL"
+			]
+		}
+	},
+	"version": 1
+}
